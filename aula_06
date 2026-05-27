@@ -1,0 +1,248 @@
+// ======================================================
+// ATIVIDADE 1 - CLASSE PRODUTO
+// ======================================================
+
+// class Produto {
+//   String nome;
+//   double preco;
+//   int quantidade;
+
+//   Produto(this.nome, this.preco, this.quantidade);
+
+//   void mostrarDados() {
+//     print("Nome do produto: $nome");
+//     print("Preço: R\$ $preco");
+//     print("Quantidade: $quantidade");
+//   }
+
+//   void calcularTotal() {
+//     double total = preco * quantidade;
+
+//     print("Valor total em estoque: R\$ $total");
+//     print("-----------------------------");
+//   }
+// }
+
+// void main() {
+//   Produto produto1 = Produto("Notebook", 3500.00, 5);
+//   Produto produto2 = Produto("Mouse", 80.00, 10);
+//   Produto produto3 = Produto("Teclado", 150.00, 7);
+
+//   produto1.mostrarDados();
+//   produto1.calcularTotal();
+
+//   produto2.mostrarDados();
+//   produto2.calcularTotal();
+
+//   produto3.mostrarDados();
+//   produto3.calcularTotal();
+// }
+
+
+
+// ======================================================
+// ATIVIDADE 2 - SISTEMA DE EQUIPAMENTOS
+// ======================================================
+
+// class Equipamento {
+//   String nome;
+//   String patrimonio;
+//   String laboratorio;
+//   String status;
+
+//   Equipamento(this.nome, this.patrimonio, this.laboratorio, this.status);
+
+//   void mostrarDados() {
+//     print("Nome: $nome");
+//     print("Patrimônio: $patrimonio");
+//     print("Laboratório: $laboratorio");
+//     print("Status: $status");
+//     print("---------------------------");
+//   }
+// }
+
+// void main() {
+//   Equipamento equipamento1 = Equipamento(
+//     "Computador",
+//     "PAT001",
+//     "Lab Informática",
+//     "Funcionando",
+//   );
+
+//   Equipamento equipamento2 = Equipamento(
+//     "Projetor",
+//     "PAT002",
+//     "Lab Multimídia",
+//     "Em manutenção",
+//   );
+
+//   Equipamento equipamento3 = Equipamento(
+//     "Roteador",
+//     "PAT003",
+//     "Lab Redes",
+//     "Funcionando",
+//   );
+
+//   equipamento1.mostrarDados();
+//   equipamento2.mostrarDados();
+//   equipamento3.mostrarDados();
+// }
+
+
+
+// ======================================================
+// EXERCÍCIO 3 - CLASSE LIVRO
+// ======================================================
+
+// class Livro {
+//   String titulo;
+//   String autor;
+//   int anoPublicacao;
+
+//   Livro(this.titulo, this.autor, this.anoPublicacao);
+
+//   void mostrarDados() {
+//     print("Título: $titulo");
+//     print("Autor: $autor");
+//     print("Ano de publicação: $anoPublicacao");
+//     print("---------------------------");
+//   }
+// }
+
+// void main() {
+//   Livro livro1 = Livro(
+//     "Dom Casmurro",
+//     "Machado de Assis",
+//     1899,
+//   );
+
+//   livro1.mostrarDados();
+// }
+
+
+
+// ======================================================
+// EXERCÍCIO 4 - CLASSE FUNCIONARIO
+// ======================================================
+
+// class Funcionario {
+//   String nome;
+//   String cargo;
+//   double salario;
+
+//   Funcionario(this.nome, this.cargo, this.salario);
+
+//   void mostrarFuncionario() {
+//     print("Nome: $nome");
+//     print("Cargo: $cargo");
+//     print("Salário: R\$ $salario");
+//     print("-----------------------");
+//   }
+// }
+
+// void main() {
+//   Funcionario funcionario1 = Funcionario(
+//     "Carlos",
+//     "Desenvolvedor",
+//     4500.00,
+//   );
+
+//   funcionario1.mostrarFuncionario();
+// }
+
+
+
+// ======================================================
+// EXERCÍCIO 5 - CLASSE PERSONAGEM
+// ======================================================
+
+// class Personagem {
+//   String nome;
+//   int vida;
+//   int forca;
+
+//   Personagem(this.nome, this.vida, this.forca);
+
+//   void atacar() {
+//     print("$nome atacou com força $forca!");
+//   }
+// }
+
+// void main() {
+//   Personagem personagem1 = Personagem(
+//     "Guerreiro",
+//     100,
+//     25,
+//   );
+
+//   personagem1.atacar();
+// }
+
+
+
+// ======================================================
+// EXERCÍCIO 6 - CLASSE CELULAR
+// ======================================================
+
+// class Celular {
+//   String marca;
+//   String modelo;
+//   int armazenamento;
+
+//   Celular(this.marca, this.modelo, this.armazenamento);
+
+//   void mostrarDados() {
+//     print("Marca: $marca");
+//     print("Modelo: $modelo");
+//     print("Armazenamento: ${armazenamento}GB");
+//     print("--------------------------");
+//   }
+// }
+
+// void main() {
+//   Celular celular1 = Celular(
+//     "Samsung",
+//     "Galaxy S24",
+//     256,
+//   );
+
+//   Celular celular2 = Celular(
+//     "Apple",
+//     "iPhone 15",
+//     128,
+//   );
+
+//   celular1.mostrarDados();
+//   celular2.mostrarDados();
+// }
+
+
+
+// ======================================================
+// EXERCÍCIO 7 - CLASSE CURSO
+// ======================================================
+
+// class Curso {
+//   String nome;
+//   int cargaHoraria;
+//   String professor;
+
+//   Curso(this.nome, this.cargaHoraria, this.professor);
+
+//   void mostrarDados() {
+//     print("Curso: $nome");
+//     print("Carga Horária: $cargaHoraria horas");
+//     print("Professor: $professor");
+//     print("----------------------------");
+//   }
+// }
+
+// void main() {
+//   Curso curso1 = Curso(
+//     "Desenvolvimento de Sistemas",
+//     1200,
+//     "João Silva",
+//   );
+
+//   curso1.mostrarDados();
+// }
