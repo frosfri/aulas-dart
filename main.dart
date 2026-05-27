@@ -3,7 +3,7 @@ void main() {
   //   print("Estou aprendendo Dart para criar aplicativos mobile.");
 
   // 02)
-  //   String nome = "Ribeiro";
+  //   String nome = "luiz";
   //   int idade = 17;
   //   String cidade = "Paulista";
   //   String curso = "ADS";
